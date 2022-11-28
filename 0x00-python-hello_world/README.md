@@ -8,3 +8,4 @@ The seventh is for concatenation of strings
 The eighth is for slicing
 The ninth one is for printing a part of a string
 The tenth one prints the Zen of Python , by Tim Peters
+The 100-write.py uses sys.stdout.write()
