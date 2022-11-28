@@ -1,2 +1,3 @@
 This task runs a python script
-tHE SECOND ONE RUNS A PYTHON CODE
+THE SECOND ONE RUNS A PYTHON CODE
+The third on prints a string using python scripting
