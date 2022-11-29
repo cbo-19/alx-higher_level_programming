@@ -4,3 +4,4 @@ Task 1 prints the last digits of random numbers
 Task2 prints lower alphabets with loop
 Task3 prints lower alphabets with the exception of q and e using ascii values
 Task4 prints numbers with a specific range in decimal and hexadecimal form
+Task5 prints numbers with the rande 0 t0 100
