@@ -6,4 +6,6 @@ def print_last_digit(number):
         num = number * -1
         rec = num % 10 * 1
         print(f"{rec}")
+    else:
+        print(f"{n}")
 
