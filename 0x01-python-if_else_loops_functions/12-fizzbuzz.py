@@ -5,7 +5,7 @@ def fizzbuzz():
             print("{}".format("FizzBuzz"), end=" ")
         elif i in range(3, 101, 3):
             print("{}".format("Fizz"), end=" ")
-        elif i in range(5, 101, 3):
+        elif i in range(5, 101, 5):
             print("{}".format("Buzz"), end=" ")
         else:
             print(i, end=" ")
