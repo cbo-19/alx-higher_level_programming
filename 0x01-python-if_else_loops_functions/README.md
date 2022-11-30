@@ -9,3 +9,4 @@ Task7 prints lower alphabets
 Task9 prints last digits
 Task10 prints sum of numbers
 Task11 prints the power of numbers
+Task12 identifies multiples
