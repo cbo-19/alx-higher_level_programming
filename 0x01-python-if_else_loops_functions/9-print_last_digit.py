@@ -4,4 +4,4 @@ def print_last_digit(number):
     print("{}".format(rec), end="")
 
 
-print_last_digit()
+print_last_digit(number)
