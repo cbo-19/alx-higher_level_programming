@@ -4,7 +4,7 @@ def print_last_digit(number):
     if number < 0:
         num = number * -1
         rec = num % 10 * 1
-        print(f"{rec}")
+        print("{}".format{rec}, end="")
     else:
         print(f"{n}")
 
