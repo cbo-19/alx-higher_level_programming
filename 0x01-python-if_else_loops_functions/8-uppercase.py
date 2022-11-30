@@ -8,4 +8,5 @@ def uppercase(str):
             print("{}".format(i), end="")
         elif not(i >= 97 and i <= 122):
             i = chr(i)
-            print("{} ".format(i),end=" ")
+            s = format(i)
+            print(s)
