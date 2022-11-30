@@ -5,3 +5,6 @@ Task2 prints lower alphabets with loop
 Task3 prints lower alphabets with the exception of q and e using ascii values
 Task4 prints numbers with a specific range in decimal and hexadecimal form
 Task5 prints numbers with the rande 0 t0 100
+Task7 prints lower alphabets
+Task9 prints last digits
+Task10 prints sum of numbers
