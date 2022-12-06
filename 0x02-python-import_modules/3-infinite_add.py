@@ -1,4 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from sys import argv
-    print("{}".format(sum(int(a) for a in argv[1:]))
+    import sys
+
+    addition = 0
+
+    for i in range(1, len(sys.argv)):
+        addition = addition + int(sys.argv[i])
+
+    print(addition)
