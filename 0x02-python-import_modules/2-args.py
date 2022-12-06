@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
-
-    if len(argv) == 1:
-        print(f"{len(argv) -1} arguments.")
-    else:
-        if len(argv) == 2:
-            print(f"{len(argv) -1} argument:")
-        else:
-            print(f"{len(argv) -1} arguments:")
-        for i in range(1, len(argv)):
-            print(f"{i}: {argv[i]}")
+    num = len(argv) - 1
+    print("{:d} {:s}{:s}".format(num,
+                                 "argument" if num <= 2 and num == 1
+                                 else "arguments",
+                                 "." if num == 0 else ":"))
+    for a, s in enumerate(argv):
+        if a > 0:
+            print("{}: {}".format(a, s))
